@@ -4,10 +4,10 @@ import { useSiteMetadata } from '../hooks/use-site-metadata';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faMapMarkerAlt, faUsers, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faUsers, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default () => {
-  const { social, footer, address, contacts } = useSiteMetadata();
+  const { social, footer, contacts } = useSiteMetadata();
   return (
     <footer>
       <div className='row'>
