@@ -11,6 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-react-helmet": "^3.3.0",
     "gatsby-plugin-smoothscroll": "^1.1.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",

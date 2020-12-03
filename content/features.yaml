@@ -1,20 +1,17 @@
 -
-  name: design
-  title: Simple, Clean and Modern Design.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-1.png'
+  name: tbp
+  title: The Black Pearl
+  body: Used daily throughout DGS-1, our first app is a community-maintained portal that allows immediate, workstation-agnostic mission setup and resource sharing.
+  image: 'images/blackpearl-logo.png'
+  link: https://blackpearl.dev.geointservices.io/
 -
-  name: responsive
-  title: Fully Responsive.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
-  image: 'images/feature-image-2.png'
+  name: fritz
+  title: Fritz
+  body: Although it has since been subsumed by Unicorn, Fritz was a JPEG renaming tool that slashed a tedious, 40-minute product conversion process to a few clicks and a couple minutes.
+  image: 'images/fritz-logo.png'
 -
-  name: cross-browser
-  title: Cross-Browser Compatible.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-3.png'
--
-  name: video
-  title: Video Support.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  vimeo: 14592941
+  name: magpie
+  title: MagPIE
+  body: Our most ambitious app to date, MagPIE magnifies Post-Ingest Exploitation capabilities through workflow consolidation and powerful predictave metrics.
+  image: 'images/magpie-logo.png'
+  link: https://magpie.dev.geointservices.io

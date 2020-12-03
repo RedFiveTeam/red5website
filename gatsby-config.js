@@ -7,48 +7,49 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Woo - Free Responsive HTML5/CSS3 Template`,
+    title: `Red5`,
     author: {
-      name: `Joe Bloggs`,
+      name: `Red 5 Engineer Team`,
     },
-    description: `Woo is a clean, modern, landing page site template.`,
+    description: `Website for Red5, DGS-1's local software development team.`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
       `features`,
-      `pricing`,
-      `call-to-action`,
       `screenshots`,
-      `testimonials`,
-      `subscribe`
+      `call-to-action`,
+      // `pricing`,
+      // `testimonials`,
+      // `subscribe`
     ],
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Features'},
-      {path: 'pricing', label: 'Pricing'},
-      {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Testimonials'},
-      {path: 'subscribe', label: 'Subscribe'},
+      {path: 'features', label: 'Our Apps'},
+      {path: 'call-to-action', label: 'Contact Us'}
+      // {path: 'screenshots', label: 'Screenshots'},
+      // {path: 'pricing', label: 'Pricing'},
+      // {path: 'testimonials', label: 'Testimonials'},
+      // {path: 'subscribe', label: 'Subscribe'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
       { service: `Facebook`,
-        url : `https://facebook.com/styleshout`,
+        url : `https://www.facebook.com/497ISRG`,
         fa: `facebook` },
-      { service: `Twitter`,
-        url : `https://twitter.com/styleshout`,
-        fa: `twitter` },
-      { service: `GitHub`,
-        url : `https://github.com/desmukh/gatsby-starter-woo`,
-        fa: `github` },
+        { service: `GitLab`,
+        url : `https://gitlab.gs.mil/DGS1SDT`,
+        fa: `gitlab` },
+        // { service: `Twitter`,
+        //   url : `https://twitter.com/styleshout`,
+        //   fa: `twitter` },
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */
     favicon: `favicon.png`,
-    logo: `/images/logo.png`,
+    logo: `images/logo.png`,
 
     /* Logo and text to show in footer */
     footer: {
@@ -67,6 +68,9 @@ module.exports = {
       { text: `123.456.7890`, url: `tel:1234567890`},
       { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
     ],
+    
+    /* Prefix path for gh-pages */
+    pathPrefix: "red5website"
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
 }

@@ -39,6 +39,13 @@ export default () => (
           <div className={ 'six columns ' + pos }>
             <h3>{ value.title }</h3>
             <p>{ value.body }</p>
+            {value.link ?
+              <a href={value.link}>
+                  <button>Check it out!</button>
+              </a>
+              :
+              null
+            }
           </div>
 
           <ScrollAnimation

@@ -31,7 +31,7 @@ export default class LightboxExample extends Component {
      </div>
      <div className="row">
        <div className="twelve columns">
-         <div id="screenshots-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+         <div id="screenshots-wrapper" className="bgrid-quarters s-bgrid-thirds cf flexx">
 
            {screenshots.map((screenshot, index) => {
              return (

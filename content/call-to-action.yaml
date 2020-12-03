@@ -1,7 +1,7 @@
 title:
-  text: Host This Template on Dreamhost.
-  url: http://www.dreamhost.com/r.cgi?287326|STYLESHOUT
-body: 'Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>. Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>.'
+  text: Want to learn more?
+  # url: http://www.dreamhost.com/r.cgi?287326|STYLESHOUT
+body: 'We are always looking for <b>new members</b> to <b>manage</b>, <b>design</b>, or <b>code</b> software according to modern development practices—no prior experience necessary! If this sounds interesting, or if you just have a question for the team, don''t hesitate to reach out to us at <b>dgslab1@gmail.com</b>'
 button:
-  label: Sign Up Now
-  url: 'http://www.dreamhost.com/r.cgi?287326|STYLESHOUT'
+  label: Contact Us
+  url: 'mailto:dgslab1@gmail.com'

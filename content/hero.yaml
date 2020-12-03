@@ -1,13 +1,13 @@
-headline: The perfect template to showcase your awesome product and service.
+headline: Red5 — DGS-1 Software Development Team
 
-body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+body: We are an Airmen-driven software development team employing modern agile development practices to solve airmen's problems. We meet with users in our Group on a daily basis to create new software uniquely tailored to our users' mission.
 
-button1:
-  label: Free Trial
-  to: '/#'
+# button1:
+#   label: Free Trial
+#   to: '/#'
 
-button2:
-  label: Learn More
-  to: '/#features'
+# button2:
+#   label: Learn More
+#   to: '/#features'
 
 image: images/hero-image.png
