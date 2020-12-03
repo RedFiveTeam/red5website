@@ -1,15 +1,14 @@
-import React from "react"
+import React from 'react';
 // import { AnchorLink } from "gatsby-plugin-anchor-links"
-import content from "../../content/hero.yaml"
+import content from '../../content/hero.yaml';
 
 export default () => (
-  <section id="hero">
-    <div className="row">
-      <div className="twelve columns">
-
-        <div className="hero-text">
-          <h1 className="responsive-headline">{ content.headline }</h1>
-          <p>{ content.body }</p>
+  <section id='hero'>
+    <div className='row'>
+      <div className='twelve columns'>
+        <div className='hero-text'>
+          <h1 className='responsive-headline'>{content.headline}</h1>
+          <p>{content.body}</p>
         </div>
 
         {/* Not using any buttons 
@@ -19,10 +18,10 @@ export default () => (
         </div> 
         */}
 
-        <div className="hero-image">
-          <img src={ content.image } alt="" className="animated fadeInUpBig" />
+        <div className='hero-image'>
+          <img src={content.image} alt='' className='animated fadeInUpBig' />
         </div>
       </div>
     </div>
   </section>
-)
+);

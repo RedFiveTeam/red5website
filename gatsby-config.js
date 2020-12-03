@@ -26,8 +26,8 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Our Apps'},
-      {path: 'call-to-action', label: 'Contact Us'}
+      { path: 'features', label: 'Our Apps' },
+      { path: 'call-to-action', label: 'Contact Us' },
       // {path: 'screenshots', label: 'Screenshots'},
       // {path: 'pricing', label: 'Pricing'},
       // {path: 'testimonials', label: 'Testimonials'},
@@ -36,15 +36,11 @@ module.exports = {
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
-      { service: `Facebook`,
-        url : `https://www.facebook.com/497ISRG`,
-        fa: `facebook` },
-        { service: `GitLab`,
-        url : `https://gitlab.gs.mil/DGS1SDT`,
-        fa: `gitlab` },
-        // { service: `Twitter`,
-        //   url : `https://twitter.com/styleshout`,
-        //   fa: `twitter` },
+      { service: `Facebook`, url: `https://www.facebook.com/497ISRG`, fa: `facebook` },
+      { service: `GitLab`, url: `https://gitlab.gs.mil/DGS1SDT`, fa: `gitlab` },
+      // { service: `Twitter`,
+      //   url : `https://twitter.com/styleshout`,
+      //   fa: `twitter` },
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */
@@ -66,11 +62,11 @@ module.exports = {
     contacts: [
       // { text: `647.343.8234`, url: `tel:6473438234` },
       // { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `dgslab1@gmail.com`, url: `mailto:dgslab1@gmail.com`},
+      { text: `dgslab1@gmail.com`, url: `mailto:dgslab1@gmail.com` },
     ],
-    
+
     /* Prefix path for gh-pages */
-    pathPrefix: "red5website"
+    pathPrefix: 'red5website',
   },
-  plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
-}
+  plugins: [`gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy`],
+};
