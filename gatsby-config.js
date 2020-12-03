@@ -66,7 +66,7 @@ module.exports = {
     ],
 
     /* Prefix path for gh-pages */
-    pathPrefix: 'red5website',
+    pathPrefix: '/red5website',
   },
   plugins: [`gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy`],
 };
