@@ -5,3 +5,6 @@ body: 'We are always looking for <b>new members</b> to <b>manage</b>, <b>design<
 button:
   label: Contact Us
   url: 'mailto:dgslab1@gmail.com'
+button2:
+  label: Apply now
+  url: https://docs.google.com/forms/d/e/1FAIpQLSeHXHThKHPRLhdQcHNh4J_JEHLzZwaWy0XybYd4GNI1ptBYBg/viewform?usp=sf_link

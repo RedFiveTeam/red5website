@@ -18,6 +18,7 @@ export default () => (
 
       <div className="three columns action">
         <a href={ content.button.url } className="button">{content.button.label}</a>
+        <a href={ content.button2.url } className="button apply">{content.button2.label}</a>
       </div>
     </div>
   </section>

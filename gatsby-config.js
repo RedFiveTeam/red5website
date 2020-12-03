@@ -53,20 +53,20 @@ module.exports = {
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      logo: `images/footer-logo.png`,
+      text: ``,
     },
 
     /* Address and contact info to show in footer */
     address: {
-      line1: `1600 Amphitheatre Parkway`,
-      line2: `Mountain View, CA`,
-      line3: `94043 US`,
+      line1: ``,
+      line2: ``,
+      line3: ``,
     },
     contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
+      // { text: `647.343.8234`, url: `tel:6473438234` },
+      // { text: `123.456.7890`, url: `tel:1234567890`},
+      { text: `dgslab1@gmail.com`, url: `mailto:dgslab1@gmail.com`},
     ],
     
     /* Prefix path for gh-pages */
