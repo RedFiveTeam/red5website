@@ -15,3 +15,9 @@
   body: Our most ambitious app to date, MagPIE magnifies Post-Ingest Exploitation capabilities through workflow consolidation and powerful predictave metrics.
   image: 'images/magpie-logo.png'
   link: https://magpie.dev.geointservices.io
+-
+  name: squire
+  title: Squire
+  body: Coming Soon!
+  image: 'images/squire-logo.png'
+  link: https://squire.east.paas.nga.mil/
