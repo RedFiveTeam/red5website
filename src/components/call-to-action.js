@@ -9,7 +9,6 @@ export default () => (
       <div className='two columns header-col'>
         <h1>
           <FontAwesomeIcon icon={faQuestion} />
-          <span>Get Hosting.</span>
         </h1>
       </div>
       <div className='seven columns'>

@@ -113,6 +113,7 @@
   }
 
   #nav-wrap > button {
+    outline: none;
     text-align: left;
     border: none;
     color: #fff;
@@ -304,7 +305,7 @@
   }
 
   /* Go To Top Button */
-  #go-top { margin-left: -22px; }
+  #go-top { margin-left: -28px; }
   #go-top a {
   width: 54px;
   height: 54px;

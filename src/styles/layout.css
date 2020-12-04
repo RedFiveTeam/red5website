@@ -70,9 +70,9 @@ header img {
 
 /* header logo */
 header .logo {
-  margin-left: 18px;
+  margin-left: 8px;
   margin-right: 20px;
-  margin-top: 4px;
+  margin-top: 5px;
   float: left;
   width: auto;
   z-index: 991;
@@ -87,8 +87,8 @@ header .logo a {
 	padding: 0;
 	border: none;
 	outline: none;
-  width: 64px;
-  height: 18px;
+  width: 43px;
+  height: 43px;
 }
 
 /* header social */
@@ -108,7 +108,7 @@ header .header-social li {
 }
 
 header .header-social li a { color: #fff; }
-header .header-social li a:hover { color: #11ABB0; }
+header .header-social li a:hover { color: #743636; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -156,6 +156,7 @@ ul.nav li button {
 	text-decoration: none;
   text-align: left;
   color: #58687A;
+  outline: none;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -224,14 +225,14 @@ ul.nav li.current button { color: #fff; }
 /* Hero Image */
 .hero-image {
   width: 100%;
-  max-width: 489px;
-  max-height: 489px;
+  max-width: 265px;
   margin: 0 auto;
 }
 
 .hero-image img {
   vertical-align: bottom;
   display: block;
+  margin-bottom: 10px;
 }
 
 /* Hero CTA Buttons */
@@ -528,7 +529,10 @@ ul.features li:nth-child(even) { }
 }
 
 #call-to-action .action { margin-top: 18px; }
-#call-to-action .action .button { text-align: center; }
+#call-to-action .action .button {
+  text-align: center;
+  margin: 10px;
+}
 #call-to-action h2 {
   font: bold 28px/36px 'Montserrat', sans-serif;
   color: #EBEEEE;
@@ -551,9 +555,6 @@ ul.features li:nth-child(even) { }
 	color: #A9B5C0;
 }
 
-#call-to-action .button .apply {
-  background: #f64b39;
-}
 
 
 /* ------------------------------------------------------------------
@@ -816,6 +817,7 @@ footer .footer-logo a {
   margin-bottom: 12px;
   margin-top: 12px;
   margin-left: 3px;
+  min-width: 90px;
 }
 
 footer .footer-logo a img {
@@ -829,6 +831,10 @@ footer .right-cols .columns {
   width: 33.33333%; ;
 }
 footer .right-cols .columns p { margin-bottom: 6px; }
+
+footer .row .row {
+  display: flex;
+}
 
 footer h3 {
   font: 600 13px/24px 'Open Sans', sans-serif;
