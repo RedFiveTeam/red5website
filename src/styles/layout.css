@@ -76,7 +76,7 @@ header .logo {
   float: left;
   width: auto;
   z-index: 991;
-
+display: flex;
   /* add position relative since z-index only applies to
   elements that have been given an explicit position */
   position: relative;
@@ -89,6 +89,12 @@ header .logo a {
 	outline: none;
   width: 43px;
   height: 43px;
+}
+
+header .title h1 {
+  color: white;
+  margin-left: 8px;
+  font-weight: normal;
 }
 
 /* header social */
@@ -124,7 +130,7 @@ header .header-social li a:hover { color: #743636; }
   font: 11px 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  float: left;
+  float: right;
 }
 
 /* hide toggle button */

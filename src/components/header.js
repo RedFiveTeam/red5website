@@ -11,6 +11,11 @@ export default () => (
       <AnchorLink to='/#top'>
         <img alt='' src={useSiteMetadata().logo} />
       </AnchorLink>
+      <div className='header-col title'>
+        <h1 className='title whitespace-no-wrap'>
+          RED 5
+        </h1>
+      </div>
     </div>
 
     <NavMenu />
