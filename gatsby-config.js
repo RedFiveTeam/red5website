@@ -21,11 +21,11 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: `Red5`,
+    title: `Red Five`,
     author: {
       name: `Red 5 Engineer Team`,
     },
-    description: `Website for Red5, DGS-1's local software development team.`,
+    description: `Website for Red 5, DGS-1's local software development team.`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [

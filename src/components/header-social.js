@@ -10,8 +10,8 @@ export default () => {
 
   return (
     <ul className='header-social'>
-      {social.map((mySocial) => (
-        <li>
+      {social.map((mySocial, index) => (
+        <li key={index}>
           <a href={mySocial.url}>
             <FontAwesomeIcon icon={['fab', mySocial.fa]} />
           </a>

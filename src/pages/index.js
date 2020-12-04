@@ -27,9 +27,9 @@ export default () => {
   return (
     <>
       <Layout>
-        {sections.map((section) => {
+        {sections.map((section, index) => {
           let Tagname = availableSections[section];
-          return <Tagname />;
+          return <Tagname key={index} />;
         })}
       </Layout>
     </>

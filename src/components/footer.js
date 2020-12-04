@@ -1,5 +1,4 @@
 import React from 'react';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
@@ -28,8 +27,8 @@ export default () => {
               <FontAwesomeIcon icon={faUsers} />
               <h3 className='social'>socialize</h3>
               <ul>
-                {social.map((mySocial) => (
-                  <li>
+                {social.map((mySocial, index) => (
+                  <li key={index}>
                     <a href={mySocial.url}>{mySocial.service}</a>
                   </li>
                 ))}
@@ -52,7 +51,7 @@ export default () => {
               <h3 className='contact'>Contact Us</h3>
               <ul>
                 {contacts.map((contact, index) => (
-                  <li>
+                  <li key={index}>
                     <a href={contact.url}>{contact.text}</a>
                   </li>
                 ))}

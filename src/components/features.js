@@ -39,7 +39,7 @@ export default () => (
       }
 
       return (
-        <div className={'row feature ' + value.name}>
+        <div key={value.name} className={'row feature ' + value.name}>
           <div className={'six columns ' + pos}>
             <h3>{value.title}</h3>
             <p>{value.body}</p>
