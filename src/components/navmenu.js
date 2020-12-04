@@ -38,7 +38,7 @@ export default function () {
               <button
                 onClick={() => {
                   scrollTo('#' + value.path);
-                  setVisibility(0);
+                  setVisibility(true);
                 }}
               >
                 {value.label}

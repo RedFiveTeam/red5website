@@ -6,6 +6,20 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    { resolve: `gatsby-plugin-anchor-links`},
+    { resolve: `gatsby-plugin-smoothscroll`},
+    { resolve: `react-scrollspy`},
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-E9W4B523QY", // Google Analytics / GA
+        ],
+      },
+    },
+  ],
   siteMetadata: {
     title: `Red5`,
     author: {
@@ -68,5 +82,4 @@ module.exports = {
     /* Prefix path for gh-pages */
     pathPrefix: '/red5website',
   },
-  plugins: [`gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy`],
 };
