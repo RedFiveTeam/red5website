@@ -11,17 +11,8 @@ export default () => {
   return (
     <footer>
       <div className='row'>
-        <div className='six columns info'>
-          <div className='footer-logo'>
-            <AnchorLink to='/'>
-              <img src={footer.logo} alt='' width='100px' height='100px' />
-            </AnchorLink>
-          </div>
 
-          <p>{footer.text}</p>
-        </div>
-
-        <div className='six columns right-cols'>
+        <div className='five columns centered'>
           <div className='row'>
             {/* <div className="columns">
               <FontAwesomeIcon icon={ faMapMarkerAlt } />
@@ -45,6 +36,17 @@ export default () => {
               </ul>
             </div>
 
+
+
+
+            {/*<div className='columns'>*/}
+            {/*  <div className='footer-logo'>*/}
+            {/*    <AnchorLink to='/'>*/}
+            {/*      <img src={footer.logo} alt='' width='100px' height='100px' />*/}
+            {/*    </AnchorLink>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
+
             <div className='columns last'>
               <FontAwesomeIcon icon={faEnvelope} />
               <h3 className='contact'>Contact Us</h3>
@@ -56,6 +58,9 @@ export default () => {
                 ))}
               </ul>
             </div>
+
+
+
           </div>
         </div>
 
