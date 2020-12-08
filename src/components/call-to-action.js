@@ -1,6 +1,5 @@
 import React from 'react';
 import content from '../../content/call-to-action.yaml';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 
 export default () => {
@@ -8,16 +7,12 @@ export default () => {
   return (
     <section id='call-to-action'>
       <div className='row'>
-        <div className='two columns header-col'>
-          <div className='columns'>
-            <div className='footer-logo'>
-              <AnchorLink to='/'>
+        <div className='three columns header-col'>
+            <div className='header-col-logo'>
                 <img src={footer.logo} alt='' width='150px' height='150px' />
-              </AnchorLink>
             </div>
-          </div>
         </div>
-        <div className='seven columns'>
+        <div className='six columns'>
           <h2>
             <a href={content.title.url}>{content.title.text}</a>
           </h2>

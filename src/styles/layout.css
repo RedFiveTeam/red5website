@@ -60,6 +60,9 @@ header {
   position: fixed;
   left: 0;
   top: 0;
+  -webkit-box-shadow: 0 3px 5px rgba(21, 21, 21, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(21, 21, 21, 0.3);
+  box-shadow: 0 3px 5px rgba(24, 24, 24, 0.3);
   z-index: 990;
 }
 
@@ -70,7 +73,7 @@ header img {
 
 /* header logo */
 header .logo {
-  margin-left: 8px;
+  margin-left: 6px;
   margin-right: 20px;
   margin-top: 5px;
   float: left;
@@ -88,12 +91,14 @@ header .logo a {
 	border: none;
 	outline: none;
   width: 43px;
-  height: 43px;
+  height: 44px;
 }
 
 header .title h1 {
   color: white;
-  margin-left: 8px;
+  height: 43px;
+  line-height: 43px;
+  margin-left: 5px;
   font-weight: normal;
 }
 
@@ -524,14 +529,7 @@ ul.features li:nth-child(even) { }
 }
 
 #call-to-action h1 span { display: none; }
-#call-to-action .header-col h1 svg {
-  padding-right: 18px;
-	padding-top: 6px;
-	font-size: 72px;
-  line-height: 72px;
-  text-align: center;
-  float: right;
-  color: #EBEEEE;
+#call-to-action .header-col-logo {
 }
 
 #call-to-action .action { margin-top: 18px; }
@@ -828,9 +826,9 @@ footer .footer-logo a {
   min-width: 90px;
 }
 
-footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+footer .footer-logo img {
+   height: 145px;
+   width: 130px;
 }
 
 footer .right-cols .columns {
@@ -840,8 +838,9 @@ footer .right-cols .columns {
 }
 footer .right-cols .columns p { margin-bottom: 6px; }
 
-footer .row .row {
+footer .row .info {
   display: flex;
+  justify-content: center;
 }
 
 footer h3 {

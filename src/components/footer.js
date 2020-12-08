@@ -3,27 +3,25 @@ import { useSiteMetadata } from '../hooks/use-site-metadata';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faUsers, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faEnvelope, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 export default () => {
-  const { social, footer, contacts } = useSiteMetadata();
+  const { social, contacts } = useSiteMetadata();
   return (
     <footer>
       <div className='row'>
+        {/*<div className='four columns info'>*/}
+        {/*  <div className='footer-logo'>*/}
+        {/*      <img src={footer.logo} alt='' width='130px' height='145px' />*/}
+        {/*  </div>*/}
 
-        <div className='five columns centered'>
+        {/*  <p>{footer.text}</p>*/}
+        {/*</div>*/}
+
+        <div className='four columns'>
           <div className='row'>
-            {/* <div className="columns">
-              <FontAwesomeIcon icon={ faMapMarkerAlt } />
-              <h3 className="address">Come Visit</h3>
-              <p>
-                { address.line1 }<br />
-                { address.line2 }<br />
-                { address.line3 }
-             </p>
-           </div> */}
 
-            <div className='columns'>
+            <div className='two columns'>
               <FontAwesomeIcon icon={faUsers} />
               <h3 className='social'>socialize</h3>
               <ul>
@@ -35,7 +33,7 @@ export default () => {
               </ul>
             </div>
 
-            <div className='columns last'>
+            <div className='two columns last'>
               <FontAwesomeIcon icon={faEnvelope} />
               <h3 className='contact'>Contact Us</h3>
               <ul>
@@ -46,13 +44,11 @@ export default () => {
                 ))}
               </ul>
             </div>
-
-
-
           </div>
         </div>
 
-        {/* <p className="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Ported to Gatsby by <a href="https://github.com/desmukh/gatsby-starter-woo" title="Fahad Desmukh">Fahad Desmukh</a> </p> */}
+
+         <p className="copyright">&copy; 2020 Red 5, All rights reserved</p>
 
         <div id='go-top'>
           <button title='Back to Top' onClick={() => scrollTo('#top')}>
