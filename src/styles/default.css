@@ -115,7 +115,7 @@ pre {
   word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/*blockquote, q { quotes: &#8220 &#8220; }*/
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -671,7 +671,13 @@ input[type="checkbox"] { display: inline; }
   clear: both;
 }
 
+.call-to-action .columns {
+    display: flex;
+    justify-content: center;
+}
+
 .column, .columns {
+
   position: relative;
   padding: 0 18px;
   min-height: 1px;
