@@ -18,10 +18,10 @@ export default () => {
         {/*  <p>{footer.text}</p>*/}
         {/*</div>*/}
 
-        <div className='four columns'>
+        <div className='twelve columns footer-connect'>
           <div className='row'>
 
-            <div className='two columns'>
+            <div className='six columns right-cols footer-social'>
               <FontAwesomeIcon icon={faUsers} />
               <h3 className='social'>socialize</h3>
               <ul>
@@ -33,7 +33,7 @@ export default () => {
               </ul>
             </div>
 
-            <div className='two columns last'>
+            <div className='six columns right-cols last footer-contact'>
               <FontAwesomeIcon icon={faEnvelope} />
               <h3 className='contact'>Contact Us</h3>
               <ul>

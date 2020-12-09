@@ -50,6 +50,7 @@ module.exports = {
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
+      { service: `Linkedin`, url: `https://www.linkedin.com/company/red5software`, fa: `linkedin` },
       { service: `Facebook`, url: `https://www.facebook.com/497ISRG`, fa: `facebook` },
       { service: `GitLab`, url: `https://gitlab.gs.mil/DGS1SDT`, fa: `gitlab` },
       // { service: `Twitter`,
@@ -74,8 +75,8 @@ module.exports = {
       line3: ``,
     },
     contacts: [
-      // { text: `647.343.8234`, url: `tel:6473438234` },
-      // { text: `123.456.7890`, url: `tel:1234567890`},
+      { text: `757.225.8454`, url: `tel:7572258454` },
+      { text: `954.263.7315`, url: `tel:19542637315`},
       { text: `dgslab1@gmail.com`, url: `mailto:dgslab1@gmail.com` },
     ],
 

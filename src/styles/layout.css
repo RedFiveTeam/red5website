@@ -811,6 +811,17 @@ footer {
   position: relative;
 }
 
+footer .footer-connect {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-social .footer-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 footer a, footer a:visited { color: #0A6567; }
 footer a:hover, footer a:focus { color: #fff; }
 
