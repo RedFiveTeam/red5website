@@ -1,16 +1,26 @@
-title: Product Screenshots.
+
 # body defines text to display above the screenshots
 # body: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+
+title: Product Screenshots
 screenshots:
   -
+    body: 'The Black Pearl'
     big: 'b-black-pearl.png'
     thumb: 'black-pearl.png'
     caption: 'The Black Pearl'
   -
+    body: 'Fritz'
     big: 'b-fritz.png'
     thumb: 'fritz.png'
     caption: 'Fritz'
   -
+    body: 'MagPIE'
     big: 'b-magpie.png'
     thumb: 'magpie.png'
     caption: 'MagPIE'
+  -
+    body: 'Turbine'
+    big: 'b-turbine.png'
+    thumb: 'turbine.png'
+    caption: 'Turbine'
