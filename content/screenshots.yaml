@@ -24,3 +24,8 @@ screenshots:
     big: 'b-turbine.png'
     thumb: 'turbine.png'
     caption: 'Turbine'
+  -
+    body: 'DotVoter'
+    big: 'b-dotvoter.png'
+    thumb: 'dotvoter.png'
+    caption: 'DotVoter'

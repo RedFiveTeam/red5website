@@ -27,3 +27,9 @@
   body: Our squadron management tool training app. We train our engineers with several variations of tech stacks and progressive mock stories to develop small incremental slices of each feature.
   image: 'images/turbine-logo.png'
   link: https://turbine.geointservices.io
+-
+  name: DotVoter
+  title: DotVoter
+  body: A very primative app made for fun with a simple login and cards you can vote on. We just used it to explore Apollo and Graphql. (Trust me, Trello is so much better)
+  image: 'images/dotvoter-logo.png'
+  link: https://dotvote.dev.dev.east.paas.geointservices.io
