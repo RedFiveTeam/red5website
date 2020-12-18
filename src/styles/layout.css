@@ -189,7 +189,8 @@ ul.nav li.current button { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #hero {
-  padding-top: 66px;
+  padding-top: 54px;
+  padding-bottom: 50px;
   background: #23292f url(img/hero-bg.png);
   overflow: hidden;
 }
@@ -210,10 +211,10 @@ ul.nav li.current button { color: #fff; }
 
 /* Hero Text */
 .hero-text {
-	color: #676e73;
+	color: #c3cfd2;
   width: 83%;
   text-align: center;
-  margin: 54px auto 24px auto;
+  margin: 54px auto 54px auto;
 }
 
 .hero-text h1 {
@@ -236,7 +237,7 @@ ul.nav li.current button { color: #fff; }
 /* Hero Image */
 .hero-image {
   width: 100%;
-  max-width: 265px;
+  max-width: 285px;
   margin: 0 auto;
 }
 

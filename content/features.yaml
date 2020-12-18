@@ -1,35 +1,41 @@
 -
   name: tbp
   title: The Black Pearl
-  body: Used daily throughout DGS-1, our first app is a community-maintained portal that allows immediate, workstation-agnostic mission setup and resource sharing.
+  action: Step Aboard!
+  body: Our very first app used daily throughout DGS-1, DGS-4 and DGS-5. TBP is a community-maintained portal that allows immediate, workstation-agnostic mission setup and resource sharing.
   image: 'images/blackpearl-logo.png'
   link: https://blackpearl.dev.geointservices.io/
 -
   name: fritz
   title: Fritz
+  action: Step Aboard!
   body: Although it has since been subsumed by Unicorn, Fritz was a JPEG renaming tool that slashed a tedious, 40-minute product conversion process to a few clicks and a couple minutes.
   image: 'images/fritz-logo.png'
 -
   name: magpie
   title: MagPIE
+  action: See it in Action!
   body: Our most ambitious app to date, MagPIE magnifies Post-Ingest Exploitation capabilities through workflow consolidation and powerful predictave metrics.
   image: 'images/magpie-logo.png'
   link: https://magpie.dev.geointservices.io
 -
   name: squire
   title: Squire
+  action: Go forth!
   body: Coming Soon! Our vision is to sharpen mission competency by providing convient and informative training program automation. We want to revitalize this archaic AF training program with some modern jazz.
   image: 'images/squire-logo.png'
   link: https://squire.dev.gs.mil/
 -
   name: turbine
   title: Turbine
+  action: Go for a spin!
   body: Our squadron management tool training app. We train our engineers with several variations of tech stacks and progressive mock stories to develop small incremental slices of each feature.
   image: 'images/turbine-logo.png'
   link: https://turbine.geointservices.io
 -
   name: DotVoter
   title: DotVoter
+  action: Play your Card!
   body: A very primative app made for fun with a simple login and cards you can vote on. We just used it to explore Apollo and Graphql. (Trust me, Trello is so much better)
   image: 'images/dotvoter-logo.png'
   link: https://dotvote.dev.dev.east.paas.geointservices.io

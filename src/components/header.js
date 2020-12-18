@@ -13,7 +13,7 @@ export default () => (
       </AnchorLink>
       <div className='header-col title'>
         <h1 className='title whitespace-no-wrap'>
-          RED 5
+          RED FIVE
         </h1>
       </div>
     </div>

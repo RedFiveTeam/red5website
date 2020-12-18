@@ -45,7 +45,7 @@ export default () => (
             <p>{value.body}</p>
             {value.link ? (
               <a href={value.link}>
-                <button>Check it out!</button>
+                <button>{value.action}</button>
               </a>
             ) : null}
           </div>

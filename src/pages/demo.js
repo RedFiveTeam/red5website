@@ -300,7 +300,7 @@ export default () => (
           <hr />
         </div>{' '}
         {/* Row End*/}
-        {/* <div className="row add-bottom">
+         <div className="row add-bottom">
 
               <div className="twelve columns add-bottom">
 
@@ -310,7 +310,7 @@ export default () => (
                     <fieldset>
 
                  <label for="regularInput">Regular Input</label>
-                <input type="text" id="regularInput">
+                <input type="text" id="regularInput"/>
 
                        <label for="regularTextarea">Regular Textarea</label>
                 <textarea id="regularTextarea"></textarea>
@@ -327,12 +327,12 @@ export default () => (
                    <legend>Checkboxes</legend>
 
                           <label for="regularCheckbox">
-                     <input type="checkbox" value="checkbox 1" id="regularCheckbox">
+                     <input type="checkbox" value="checkbox 1" id="regularCheckbox"/>
                     <span>Regular Checkbox</span>
                   </label>
 
                           <label for="secondRegularCheckbox">
-                     <input type="checkbox" value="checkbox 2" id="secondRegularCheckbox">
+                     <input type="checkbox" value="checkbox 2" id="secondRegularCheckbox"/>
                     <span>Regular Checkbox</span>
                   </label>
                 </fieldset>
@@ -341,12 +341,12 @@ export default () => (
                    <legend>Radio Buttons</legend>
 
                           <label for="regularRadio">
-                     <input type="radio" value="radio 1" id="regularRadio" name="radios">
+                     <input type="radio" value="radio 1" id="regularRadio" name="radios"/>
                      <span>Regular Radio</span>
                   </label>
 
                           <label for="secondRegularRadio">
-                     <input type="radio" value="radio 2" id="secondRegularRadio" name="radios">
+                     <input type="radio" value="radio 2" id="secondRegularRadio" name="radios"/>
                     <span>Regular Radio</span>
                   </label>
                 </fieldset>
@@ -360,7 +360,7 @@ export default () => (
 
               <hr />
 
-           </div> */}{' '}
+           </div> {' '}
         {/* Row End*/}
         <div className='row'>
           <div className='twelve columns'>
