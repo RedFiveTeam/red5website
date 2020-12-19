@@ -10,4 +10,4 @@ button2:
   url: https://docs.google.com/forms/d/e/1FAIpQLSeA1lHmz7UM75lYM4l3Vls_pnmTcp90LGMNKkhdRJKU2OeMlw/viewform?usp=sf_link
 button3:
   label: Team Roles
-  url: '/roles'
+  url: '/team-roles'
