@@ -1,0 +1,16 @@
+-
+  name: Designer
+  title: Designer - User champion and master of Problem solving.
+  body:   Our designers utilize the think > make > validate process. They use a wide variety of design studio tools like Figma, Sketch, and various Adobe Products to create prototypes and test new application features. Designers measure the effect of new features through user interviews before they are actually implemented by the engineers.
+
+  image: 'images/designer-logo.png'
+-
+  name: Engineer
+  title: Engineer - The Highly Opinionated Puzzle Mechanic.
+  body: Our engineers follow the Extreme Programming philosophies of Kent Beck, relying on paired programming and test-driven development to implement application features, using a red > green > refactor process. They write a test for the feature, make it pass, and rewrite the code for readability and efficiency. Engineers operate as full-stack engineers who code both frontend (React via Typescript) and backend (Spring via Java) while maintaining version control (Gitlab) for robust applications involving multiple user experiences, APIs, and GUIs. They deploy our applications to a platform as a service (Pivotal Cloud Foundry) that rests on infrastructure as a service (Amazon Web Services) at the unclassified, secret, and top-secret levels.
+  image: 'images/engineer-logo.png'
+-
+  name: Product Manager
+  title: Product Manager - Vision leader and director of experiments.
+  body: Our product managers follow the Lean Product Management philosophies of Eric Ries, relying on a consistent experimentation cycle to build, measure, and learn what brings value to our enterprise.  They operate as liaisons between our stakeholders and our team, directing our operations toward small, valuable iterations proven through data analytics and user interviews.  The product managers translate necessary features from our design team into the quickest slices of software that they can put in the hands of users to receive feedback.
+  image: 'images/pm-logo.png'

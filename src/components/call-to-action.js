@@ -20,6 +20,9 @@ export default () => {
         </div>
 
         <div className='three columns action'>
+          <a href={content.button3.url} className='button apply'>
+            {content.button3.label}
+          </a>
           <a href={content.button.url} className='button'>
             {content.button.label}
           </a>

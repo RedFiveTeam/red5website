@@ -311,85 +311,105 @@ ul.nav li.current button { color: #fff; }
 .fluid-video-wrapper { margin-top: 18px; }
 
 
-/*----------------------------------------------*/
-/*	e. Pricing Section
-/*----------------------------------------------*/
 
-#pricing {
-	background: #F7F7F7;
-  padding-top: 107px;
-  padding-bottom: 77px;
-  border-top: 1px solid #F0F0F0;
-  border-bottom: 1px solid #F0F0F0;
+/* ------------------------------------------------------------------ */
+/* c. Role-header
+/* ------------------------------------------------------------------ */
+
+#role-header {
+  padding-top: 84px;
+  background: #23292f url(img/hero-bg.png);
+  overflow: hidden;
+}
+
+/* For high-res devices */
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  #role-header {
+    background: #23292f url(img/hero-bg_@2X.png);
+    background-size: 200px 200px;
+  }
+
+}
+
+#hero .row { max-width: 1040px; }
+
+/* Role-header Text */
+.role-header-text {
+  color: #ffffff;
+  width: 83%;
   text-align: center;
+  margin: 54px auto 54px auto;
 }
 
-#pricing .price-block {
-  background: #fff;
-  border: 1px solid #E6E6E6;
-  text-align: center;
-  margin-bottom: 36px;
-}
-
-.plan-title {
-  font: 600 15px/30px 'Montserrat', sans-serif;
-  padding: 30px 20px 6px 20px;
-  margin-bottom: 0px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.plan-title .fa {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 26px;
-}
-
-.plan-price {
-	font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #333;
-	padding: 6px 30px 6px 30px;
-  margin-bottom: 0;
-	text-align: center;
-  letter-spacing: .5px;
-}
-
-.plan-price span {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-  font-weight: 300;
-	color: #999;
-	display: block;
-	margin-top: 0;
-}
-
-ul.features {
-  margin: 12px 0 0 0;
-  list-style: none;
-}
-
-ul.features li {
-  line-height: 39px;
-  margin-bottom: 0;
-}
-
-ul.features li:nth-child(odd) { }
-ul.features li:nth-child(even) { }
-
-.plan-sign-up {
-  padding: 24px 15px;
+.role-header-text h1 {
+  font: 600 40px/1.2em 'Montserrat', sans-serif;
+  color: #fff;
+  padding: 0;
   margin: 0;
-  text-align: center;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
 
-.plan-sign-up .button {
-  font: bold 13px/24px 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.role-header-text h1 span,
+.role-header-text a { color: #11ABB0; }
+.role-header-text p {
+  font: 16px/30px 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 12px 8% 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 }
+/* Role Header Image */
+.role-header-image {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.role-header-image img {
+  vertical-align: bottom;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Roles
+/* ------------------------------------------------------------------ */
+
+#roles {
+  background: #ffffff;
+  padding-top: 96px;
+  padding-bottom: 78px;
+  overflow: hidden;
+}
+
+#roles .role {
+  margin-top: 30px;
+  margin-bottom: 54px;
+}
+
+#roles .right {
+  padding-left: 32px;
+  float: right;
+}
+
+#roles .left {
+  padding-right: 32px;
+  float: left;
+}
+
+#roles h3 {
+  font: bold 16px/24px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+#roles p {
+  color: #000000;
+}
+
 
 
 /* ------------------------------------------------------------------ */
