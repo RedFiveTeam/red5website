@@ -3,12 +3,37 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/workspace/red5website/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/content/call-to-action.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/content/roles.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/components/roles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/content/features.yaml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/content/hero.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/content/roles.yaml">
           <value>
             <set />
           </value>
@@ -33,7 +58,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/role-header.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/roles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/pages/demo.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/pages/roles.js">
           <value>
             <set />
           </value>

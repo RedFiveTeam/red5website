@@ -1,6 +1,9 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import content from '../../content/roles.yaml';
+import Engineer from "../../static/images/engineer-logo.png";
+import Design from "../../static/images/designer-logo.png";
+import PM from "../../static/images/pm-logo.png";
 
 export default () => (
   <section id='roles'>
@@ -46,7 +49,9 @@ export default () => (
             initiallyVisible={true}
             className={'six columns role-media ' + imagepos}
           >
-            {media}
+            {value.name === "Engineer" && <img src={Engineer} alt='' />}
+            {value.name === "Designer" && <img src={Design} alt='' />}
+            {value.name === "Product Manager" && <img src={PM} alt='' />}
           </ScrollAnimation>
           <div className={'six columns ' + pos}>
             <h3>{value.title}</h3>
@@ -57,7 +62,6 @@ export default () => (
               </a>
             ) : null}
           </div>
-
         </div>
       );
     })}
