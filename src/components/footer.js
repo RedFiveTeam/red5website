@@ -3,25 +3,16 @@ import { useSiteMetadata } from '../hooks/use-site-metadata';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faEnvelope, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faCity, faEnvelope, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 export default () => {
-  const { social, contacts } = useSiteMetadata();
+  const { social, contacts, referrals } = useSiteMetadata();
   return (
     <footer>
       <div className='row'>
-        {/*<div className='four columns info'>*/}
-        {/*  <div className='footer-logo'>*/}
-        {/*      <img src={footer.logo} alt='' width='130px' height='145px' />*/}
-        {/*  </div>*/}
-
-        {/*  <p>{footer.text}</p>*/}
-        {/*</div>*/}
-
         <div className='twelve columns footer-connect'>
           <div className='row'>
-
-            <div className='six columns right-cols footer-social'>
+            <div className='four columns footer-social'>
               <FontAwesomeIcon icon={faUsers} />
               <h3 className='social'>socialize</h3>
               <ul>
@@ -32,10 +23,9 @@ export default () => {
                 ))}
               </ul>
             </div>
-
-            <div className='six columns right-cols last footer-contact'>
+            <div className='four columns footer-contact'>
               <FontAwesomeIcon icon={faEnvelope} />
-              <h3 className='contact'>Contact Us</h3>
+              <h3 className='contact'>Contact Red Five</h3>
               <ul>
                 {contacts.map((contact, index) => (
                   <li key={index}>
@@ -44,12 +34,20 @@ export default () => {
                 ))}
               </ul>
             </div>
+            <div className='four columns last footer-referral'>
+              <FontAwesomeIcon icon={faCity} />
+              <h3 className='referral'>Checkout more Air Force software factories</h3>
+              <ul>
+                {referrals.map((myReferral, index) => (
+                  <li key={index}>
+                    <a href={myReferral.url}>{myReferral.text}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
-
-
          <p className="copyright">&copy; 2020 Red 5, All rights reserved</p>
-
         <div id='go-top'>
           <button title='Back to Top' onClick={() => scrollTo('#top')}>
             <FontAwesomeIcon icon={faChevronUp} />

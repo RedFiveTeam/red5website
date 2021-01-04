@@ -202,19 +202,18 @@ ul.nav li.current button { color: #fff; }
 
 	#hero {
 		background: #23292f url(img/hero-bg_@2X.png);
-		background-size: 200px 200px;
+		background-size: 300px 300px;
 	}
-
 }
 
 #hero .row { max-width: 1040px; }
 
 /* Hero Text */
 .hero-text {
-	color: #c3cfd2;
+  color: #c3cfd2;
   width: 83%;
   text-align: center;
-  margin: 54px auto 54px auto;
+  margin: 30px auto 20px auto;
 }
 
 .hero-text h1 {
@@ -237,14 +236,13 @@ ul.nav li.current button { color: #fff; }
 /* Hero Image */
 .hero-image {
   width: 100%;
-  max-width: 285px;
-  margin: 0 auto;
+  max-width: 350px;
+  margin: 50px auto 30px auto;
 }
 
 .hero-image img {
   vertical-align: bottom;
   display: block;
-  margin-bottom: 10px;
 }
 
 /* Hero CTA Buttons */
@@ -837,19 +835,13 @@ footer .footer-connect {
   justify-content: space-around;
 }
 
-footer .footer-social .footer-contact {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
 footer a, footer a:visited { color: #0A6567; }
 footer a:hover, footer a:focus { color: #fff; }
 
 footer .info { padding-right: 90px; }
-.footer-logo {
-width: 145px;
-}
+
+.footer-logo { width: 145px; }
+
 footer .footer-logo a {
   display: block;
   margin-bottom: 12px;
@@ -868,7 +860,6 @@ footer .right-cols .columns {
   padding-left: 5px;
   width: 33.33333%; ;
 }
-footer .right-cols .columns p { margin-bottom: 6px; }
 
 footer .row .info {
   display: flex;
@@ -884,8 +875,8 @@ footer h3 {
 }
 footer .columns svg {
   font-family: 'FontAwesome';
-	margin: 0 0 6px 3px;
-	font-size: 30px;
+  margin: 0 0 6px 3px;
+  font-size: 30px;
   line-height: 48px;
   text-align: left;
   color: #738291;
@@ -916,12 +907,12 @@ footer .copyright {
 
 /* Go To Top Button */
 #go-top {
-	position: absolute;
-	top: -24px;
-  left: 50%;
-  margin-left: -30px;
-  text-align: center;
-  z-index: 889;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+    text-align: center;
+    z-index: 889;
 }
 #go-top button {
 	text-decoration: none;

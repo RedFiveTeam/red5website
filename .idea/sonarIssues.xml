@@ -13,12 +13,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/workspace/red5website/content/features.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/content/role-header.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/workspace/red5website/content/roles.yaml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/workspace/red5website/gatsby-config.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/components/features.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/components/footer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/components/header.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/workspace/red5website/src/components/roles.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/hooks/use-site-metadata.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/red5website/src/styles/layout.css">
           <value>
             <set />
           </value>

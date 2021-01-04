@@ -13,6 +13,7 @@ export default () => (
           <h1 className='responsive-headline'>{content.title}</h1>
           <p>{content.body}</p>
         </div>
+
       </div>
     </div>
   </section>

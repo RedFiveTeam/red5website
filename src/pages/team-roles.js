@@ -1,7 +1,7 @@
 import React from 'react';
+import Roleheader from '../components/role-header';
 import Layout from '../components/layout';
 import Roles from '../components/roles';
-import Roleheader from '../components/role-header';
 
 export default () => (
     <>

@@ -2,7 +2,7 @@
   name: tbp
   title: The Black Pearl
   action: Step Aboard!
-  body: Our very first app used daily throughout DGS-1, DGS-4 and DGS-5. TBP is a community-maintained portal that allows immediate, workstation-agnostic mission setup and resource sharing.
+  body: Our very first web app used daily throughout DGS-1, DGS-4 and DGS-5. TBP is a community-maintained portal that allows immediate, workstation-agnostic mission setup and resource sharing. It is definitely NOT designed for mobile users.
   image: 'images/blackpearl-logo.png'
   link: https://blackpearl.dev.geointservices.io/
 -
@@ -15,27 +15,27 @@
   name: magpie
   title: MagPIE
   action: See it in Action!
-  body: Our most ambitious app to date, MagPIE magnifies Post-Ingest Exploitation capabilities through workflow consolidation and powerful predictave metrics.
+  body: 'Our most ambitious app to date, MagPIE magnifies Post-Ingest Exploitation capabilities through workflow consolidation and powerful predictave metrics. #SorryNotSorry, still NOT designed for mobile users.'
   image: 'images/magpie-logo.png'
   link: https://magpie.dev.geointservices.io
 -
   name: squire
   title: Squire
   action: Go forth!
-  body: Coming Soon! Our vision is to sharpen mission competency by providing convient and informative training program automation. We want to revitalize this archaic AF training program with some modern jazz.
+  body: Coming Soon! Our vision is to sharpen mission competency by providing convient and informative training program automation. We want to revitalize this archaic AF training program with some modern jazz. I can neither confirm or deny if this will be designed for mobile users... probably not though.
   image: 'images/squire-logo.png'
   link: https://squire.dev.gs.mil/
 -
   name: turbine
   title: Turbine
   action: Go for a spin!
-  body: Our squadron management tool training app. We train our engineers with several variations of tech stacks and progressive mock stories to develop small incremental slices of each feature.
+  body: Our squadron management tool training app. We train our engineers with several variations of tech stacks and progressive mock stories to develop small incremental slices of each feature. Some of this looks good on mobile but it was totally accidental.
   image: 'images/turbine-logo.png'
   link: https://turbine.geointservices.io
 -
   name: DotVoter
   title: DotVoter
   action: Play your Card!
-  body: A very primative app made for fun with a simple login and cards you can vote on. We just used it to explore Apollo and Graphql. (Trust me, Trello is so much better)
+  body: A very primative app made for fun with a simple login and cards you can vote on. We just used it to explore Apollo and Graphql.  Mobile users, I know you are reading this... just don't. It looks so bad it will brick your phone.
   image: 'images/dotvoter-logo.png'
   link: https://dotvote.dev.dev.east.paas.geointservices.io

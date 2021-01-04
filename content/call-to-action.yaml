@@ -1,9 +1,9 @@
 title:
-  text: Want to learn more?
+  text: Thinking about joining an Air Force Software Factory or just want to learn more?
   # url: http://www.dreamhost.com/r.cgi?287326|STYLESHOUT
-body: 'We are always looking for <b>new members</b> to <b>manage</b>, <b>design</b>, or <b>code</b> software according to modern development practices—no prior experience necessary! If this sounds interesting, or if you just have a question for the team, don''t hesitate to reach out to us at <b>dgslab1@gmail.com</b>'
+body: 'If you are not local to us we can help you find a team near you! We also have full remote training opportunities'
 button:
-  label: Contact Us
+  label: Email Us
   url: 'mailto:dgslab1@gmail.com'
 button2:
   label: Apply now
