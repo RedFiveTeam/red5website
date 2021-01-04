@@ -42,7 +42,6 @@ module.exports = {
     menuItems: [
       { path: 'features', label: 'Our Apps' },
       { path: 'call-to-action', label: 'Contact Us' },
-      // {path: 'screenshots', label: 'Screenshots'},
       // {path: 'pricing', label: 'Pricing'},
       // {path: 'testimonials', label: 'Testimonials'},
       // {path: 'subscribe', label: 'Subscribe'},
@@ -78,6 +77,9 @@ module.exports = {
       { text: `757.225.8454`, url: `tel:7572258454` },
       { text: `954.263.7315`, url: `tel:19542637315`},
       { text: `dgslab1@gmail.com`, url: `mailto:dgslab1@gmail.com` },
+    ],
+    referrals: [
+      { text: `Platform One`, url: `https://software.af.mil/software-factories/` },
     ],
 
     /* Prefix path for gh-pages */
